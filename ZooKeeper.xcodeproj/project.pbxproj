@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315CAB3B1C6450110045946C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315CAB3A1C6450110045946C /* AppDelegate.swift */; };
+		315CAB3D1C6450110045946C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315CAB3C1C6450110045946C /* MasterViewController.swift */; };
+		315CAB3F1C6450110045946C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315CAB3E1C6450110045946C /* DetailViewController.swift */; };
+		315CAB421C6450110045946C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315CAB401C6450110045946C /* Main.storyboard */; };
+		315CAB441C6450110045946C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315CAB431C6450110045946C /* Assets.xcassets */; };
+		315CAB471C6450110045946C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315CAB451C6450110045946C /* LaunchScreen.storyboard */; };
+		315CAB521C6450110045946C /* ZooKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315CAB511C6450110045946C /* ZooKeeperTests.swift */; };
+		315CAB5D1C6450110045946C /* ZooKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315CAB5C1C6450110045946C /* ZooKeeperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		315CAB4E1C6450110045946C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315CAB2F1C6450110045946C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315CAB361C6450110045946C;
+			remoteInfo = ZooKeeper;
+		};
+		315CAB591C6450110045946C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315CAB2F1C6450110045946C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315CAB361C6450110045946C;
+			remoteInfo = ZooKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315CAB371C6450110045946C /* ZooKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		315CAB3A1C6450110045946C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		315CAB3C1C6450110045946C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		315CAB3E1C6450110045946C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		315CAB411C6450110045946C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		315CAB431C6450110045946C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		315CAB461C6450110045946C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		315CAB481C6450110045946C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315CAB4D1C6450110045946C /* ZooKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315CAB511C6450110045946C /* ZooKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooKeeperTests.swift; sourceTree = "<group>"; };
+		315CAB531C6450110045946C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315CAB581C6450110045946C /* ZooKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315CAB5C1C6450110045946C /* ZooKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooKeeperUITests.swift; sourceTree = "<group>"; };
+		315CAB5E1C6450110045946C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315CAB341C6450110045946C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315CAB4A1C6450110045946C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315CAB551C6450110045946C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		315CAB2E1C6450110045946C = {
+			isa = PBXGroup;
+			children = (
+				315CAB391C6450110045946C /* ZooKeeper */,
+				315CAB501C6450110045946C /* ZooKeeperTests */,
+				315CAB5B1C6450110045946C /* ZooKeeperUITests */,
+				315CAB381C6450110045946C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		315CAB381C6450110045946C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315CAB371C6450110045946C /* ZooKeeper.app */,
+				315CAB4D1C6450110045946C /* ZooKeeperTests.xctest */,
+				315CAB581C6450110045946C /* ZooKeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315CAB391C6450110045946C /* ZooKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				315CAB3A1C6450110045946C /* AppDelegate.swift */,
+				315CAB3C1C6450110045946C /* MasterViewController.swift */,
+				315CAB3E1C6450110045946C /* DetailViewController.swift */,
+				315CAB401C6450110045946C /* Main.storyboard */,
+				315CAB431C6450110045946C /* Assets.xcassets */,
+				315CAB451C6450110045946C /* LaunchScreen.storyboard */,
+				315CAB481C6450110045946C /* Info.plist */,
+			);
+			path = ZooKeeper;
+			sourceTree = "<group>";
+		};
+		315CAB501C6450110045946C /* ZooKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				315CAB511C6450110045946C /* ZooKeeperTests.swift */,
+				315CAB531C6450110045946C /* Info.plist */,
+			);
+			path = ZooKeeperTests;
+			sourceTree = "<group>";
+		};
+		315CAB5B1C6450110045946C /* ZooKeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				315CAB5C1C6450110045946C /* ZooKeeperUITests.swift */,
+				315CAB5E1C6450110045946C /* Info.plist */,
+			);
+			path = ZooKeeperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		315CAB361C6450110045946C /* ZooKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315CAB611C6450110045946C /* Build configuration list for PBXNativeTarget "ZooKeeper" */;
+			buildPhases = (
+				315CAB331C6450110045946C /* Sources */,
+				315CAB341C6450110045946C /* Frameworks */,
+				315CAB351C6450110045946C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZooKeeper;
+			productName = ZooKeeper;
+			productReference = 315CAB371C6450110045946C /* ZooKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		315CAB4C1C6450110045946C /* ZooKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315CAB641C6450110045946C /* Build configuration list for PBXNativeTarget "ZooKeeperTests" */;
+			buildPhases = (
+				315CAB491C6450110045946C /* Sources */,
+				315CAB4A1C6450110045946C /* Frameworks */,
+				315CAB4B1C6450110045946C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315CAB4F1C6450110045946C /* PBXTargetDependency */,
+			);
+			name = ZooKeeperTests;
+			productName = ZooKeeperTests;
+			productReference = 315CAB4D1C6450110045946C /* ZooKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		315CAB571C6450110045946C /* ZooKeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315CAB671C6450110045946C /* Build configuration list for PBXNativeTarget "ZooKeeperUITests" */;
+			buildPhases = (
+				315CAB541C6450110045946C /* Sources */,
+				315CAB551C6450110045946C /* Frameworks */,
+				315CAB561C6450110045946C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315CAB5A1C6450110045946C /* PBXTargetDependency */,
+			);
+			name = ZooKeeperUITests;
+			productName = ZooKeeperUITests;
+			productReference = 315CAB581C6450110045946C /* ZooKeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		315CAB2F1C6450110045946C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nicholas Baud";
+				TargetAttributes = {
+					315CAB361C6450110045946C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					315CAB4C1C6450110045946C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 315CAB361C6450110045946C;
+					};
+					315CAB571C6450110045946C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 315CAB361C6450110045946C;
+					};
+				};
+			};
+			buildConfigurationList = 315CAB321C6450110045946C /* Build configuration list for PBXProject "ZooKeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 315CAB2E1C6450110045946C;
+			productRefGroup = 315CAB381C6450110045946C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				315CAB361C6450110045946C /* ZooKeeper */,
+				315CAB4C1C6450110045946C /* ZooKeeperTests */,
+				315CAB571C6450110045946C /* ZooKeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315CAB351C6450110045946C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315CAB471C6450110045946C /* LaunchScreen.storyboard in Resources */,
+				315CAB441C6450110045946C /* Assets.xcassets in Resources */,
+				315CAB421C6450110045946C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315CAB4B1C6450110045946C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315CAB561C6450110045946C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315CAB331C6450110045946C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315CAB3F1C6450110045946C /* DetailViewController.swift in Sources */,
+				315CAB3D1C6450110045946C /* MasterViewController.swift in Sources */,
+				315CAB3B1C6450110045946C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315CAB491C6450110045946C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315CAB521C6450110045946C /* ZooKeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315CAB541C6450110045946C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315CAB5D1C6450110045946C /* ZooKeeperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		315CAB4F1C6450110045946C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315CAB361C6450110045946C /* ZooKeeper */;
+			targetProxy = 315CAB4E1C6450110045946C /* PBXContainerItemProxy */;
+		};
+		315CAB5A1C6450110045946C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315CAB361C6450110045946C /* ZooKeeper */;
+			targetProxy = 315CAB591C6450110045946C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		315CAB401C6450110045946C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315CAB411C6450110045946C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		315CAB451C6450110045946C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315CAB461C6450110045946C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		315CAB5F1C6450110045946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		315CAB601C6450110045946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		315CAB621C6450110045946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZooKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NB.ZooKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		315CAB631C6450110045946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZooKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NB.ZooKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		315CAB651C6450110045946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZooKeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NB.ZooKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooKeeper.app/ZooKeeper";
+			};
+			name = Debug;
+		};
+		315CAB661C6450110045946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZooKeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NB.ZooKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooKeeper.app/ZooKeeper";
+			};
+			name = Release;
+		};
+		315CAB681C6450110045946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZooKeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NB.ZooKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZooKeeper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		315CAB691C6450110045946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZooKeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NB.ZooKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZooKeeper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315CAB321C6450110045946C /* Build configuration list for PBXProject "ZooKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315CAB5F1C6450110045946C /* Debug */,
+				315CAB601C6450110045946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315CAB611C6450110045946C /* Build configuration list for PBXNativeTarget "ZooKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315CAB621C6450110045946C /* Debug */,
+				315CAB631C6450110045946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		315CAB641C6450110045946C /* Build configuration list for PBXNativeTarget "ZooKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315CAB651C6450110045946C /* Debug */,
+				315CAB661C6450110045946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		315CAB671C6450110045946C /* Build configuration list for PBXNativeTarget "ZooKeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315CAB681C6450110045946C /* Debug */,
+				315CAB691C6450110045946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 315CAB2F1C6450110045946C /* Project object */;
+}
