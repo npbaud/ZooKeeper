@@ -10,24 +10,28 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
-
-    var detailItem: AnyObject? {
+    @IBOutlet weak var nameTextView: UITextField!
+    @IBOutlet weak var colorTextField: UITextField!
+    @IBOutlet weak var legTextField: UITextField!
+    @IBOutlet weak var isMaleSwitch: UISwitch!
+    
+    
+    var detailItem: Animal? {
         didSet {
             // Update the view.
             self.configureView()
         }
     }
-
+    
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+        if let animal = self.detailItem {
+                nameTextView?.text = animal.name
+                colorTextField?.text = animal.color
+                legTextField?.text = "\(animal.legCount ?? 0)"
+                isMaleSwitch?.on = animal.isMale
             }
         }
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

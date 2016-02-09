@@ -1,15 +1,14 @@
 //
-//  ZooKeeperTests.swift
-//  ZooKeeperTests
+//  AnimalFactoryTest.swift
+//  ZooKeeper
 //
-//  Created by Nicholas Baud on 2/4/16.
+//  Created by Nicholas Baud on 2/8/16.
 //  Copyright © 2016 Nicholas Baud. All rights reserved.
 //
 
 import XCTest
-@testable import ZooKeeper
 
-class ZooKeeperTests: XCTestCase {
+class AnimalFactoryTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,14 +20,9 @@ class ZooKeeperTests: XCTestCase {
         super.tearDown()
     }
     
-    func test_ParseJSONFile_CreatesAnimalArray() {
-        if let zoo = AnimalFactory.zooFromJSONFileNamed("zoo") {
-        let count = zoo.count
-        XCTAssertGreaterThan(count, 0, "zoo should have animals")
-    } else {
-        XCTFail("should have zoo")
-    }
-      
+    func testExample() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
